@@ -1,8 +1,8 @@
 language: generic
 dist: xenial
 sudo: required
-before_script:
-- go build main.go
-- ls -al
+install:
+- sudo bash scripts/go_provision.sh
 script:
 - bash test.sh
+
