@@ -1,6 +1,5 @@
-language: go
+language: generic
 dist: xenial
 sudo: required
 script:
 - bash test.sh
-
