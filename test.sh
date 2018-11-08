@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-
-go build main.go
-out=$(./main)
+out=$( go run main.go)
 
 if [ $out == hello ]; then
 

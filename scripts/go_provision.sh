@@ -22,7 +22,6 @@ grep 'GOPATH|GOROOT' /home/vagrant/.bash_profile &>/dev/null || {
   echo 'export GOROOT=/usr/lib/go-1.10' | sudo tee -a /home/vagrant/.bash_profile
   echo 'export PATH=$PATH:$GOROOT/bin' | sudo tee -a /home/vagrant/.bash_profile
   echo 'export GOPATH=/home/vagrant/go' | sudo tee -a /home/vagrant/.bash_profile
-  sudo chown -R vagrant:  /home/vagrant
 }
 
 

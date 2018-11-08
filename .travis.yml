@@ -1,8 +1,6 @@
-language: generic
+language: go
 dist: xenial
 sudo: required
-install:
-- bash scripts/go_provision.sh
 script:
 - bash test.sh
 
